@@ -1,0 +1,32 @@
+name: cmse802
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - cvxpy
+  - numba
+  - sympy
+  - matplotlib
+  - seaborn
+  - yfinance
+
+  # Analysis
+  - jupyter
+  - jupyterlab
+  - notebook
+  - matplotlib
+  - seaborn
+  - jupyter-book
+  - ghp-import
+
+  # ML
+  - shap
+  - xgboost
+  - hdbscan
